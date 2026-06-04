@@ -7,7 +7,7 @@ A modern React-based web application developed as part of the **QSkill Front-End
 Paste your Vercel URL here:
 
 ```text
-https://your-project-name.vercel.app
+https://qskill-react-project-nous.vercel.app
 ```
 
 ## 📂 GitHub Repository
