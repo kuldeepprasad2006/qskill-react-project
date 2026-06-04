@@ -1,99 +1,342 @@
 # QSkill Internship Project
 
-## Overview
+A modern React-based web application developed as part of the **QSkill Front-End Development Internship Assignment**.
 
-This project was developed as part of the QSkill Front-End Development Internship.
+## 🚀 Live Demo
 
-The application contains:
+Paste your Vercel URL here:
 
-* Language Translator using RapidAPI
-* Random String Generator
-* Client Side Routing using React Router DOM
-* Modern UI using Tailwind CSS
+```text
+https://your-project-name.vercel.app
+```
 
----
+## 📂 GitHub Repository
 
-## Features
+Paste your GitHub repository URL here:
 
-### Translator Application
-
-* Translate English text into Hindi
-* API Integration using RapidAPI
-* Responsive User Interface
-* Error Handling
-
-### Random String Generator
-
-* Generate Random Strings
-* Built using:
-
-  * useState
-  * useEffect
-  * useCallback
-
-### Routing
-
-* Home Page
-* Translator Page
-* Random Generator Page
+```text
+https://github.com/Akash046/qskill-react-project
+```
 
 ---
 
-## Technologies Used
+# 📖 Project Overview
 
-* React
+This project demonstrates modern front-end development concepts using:
+
+* React JS
 * Vite
 * Tailwind CSS
-* Axios
 * React Router DOM
+* Axios
 * RapidAPI
+* React Hooks
+
+The application contains two major features:
+
+1. Language Translator
+2. Random String Generator
+
+The project is fully responsive and deployed on Vercel.
 
 ---
 
-## Installation
+# ✨ Features
 
-Clone Repository
+## 🌍 Language Translator
 
-git clone YOUR_REPOSITORY_LINK
+* Translate English text into Hindi
+* RapidAPI Integration
+* User-friendly interface
+* Error handling
+* Loading state management
+* Responsive design
 
-Move into Project Folder
+---
 
-cd qskill-project
+## 🎲 Random String Generator
 
-Install Dependencies
+* Generate random alphanumeric strings
+* Built using React Hooks
+* Copy generated string functionality
+* Dynamic UI updates
 
+---
+
+## 🧭 Routing
+
+Implemented using React Router DOM.
+
+Available routes:
+
+| Route       | Description             |
+| ----------- | ----------------------- |
+| /           | Home Page               |
+| /translator | Translator Application  |
+| /random     | Random String Generator |
+
+---
+
+# 🛠️ Technologies Used
+
+| Technology       | Purpose             |
+| ---------------- | ------------------- |
+| React            | Frontend Framework  |
+| Vite             | Build Tool          |
+| Tailwind CSS     | Styling             |
+| React Router DOM | Routing             |
+| Axios            | API Requests        |
+| RapidAPI         | Translation API     |
+| Git              | Version Control     |
+| GitHub           | Source Code Hosting |
+| Vercel           | Deployment          |
+
+---
+
+# 📁 Project Structure
+
+```text
+qskill-project/
+│
+├── public/
+│
+├── src/
+│   ├── assets/
+│   ├── components/
+│   │   └── Navbar.jsx
+│   │
+│   ├── pages/
+│   │   ├── Home.jsx
+│   │   ├── Translator.jsx
+│   │   └── RandomGenerator.jsx
+│   │
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+├── .env.example
+├── .gitignore
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+---
+
+# ⚙️ Installation
+
+## 1. Clone Repository
+
+```bash
+git clone https://github.com/Akash046/qskill-react-project.git
+```
+
+---
+
+## 2. Navigate to Project Folder
+
+```bash
+cd qskill-react-project
+```
+
+---
+
+## 3. Install Dependencies
+
+```bash
 npm install
+```
 
 ---
 
-## Environment Variables
+# 🔑 Environment Variables
 
 Create a file named:
 
+```text
 .env
+```
 
-Add:
+Add the following:
 
-VITE_RAPID_API_KEY=YOUR_API_KEY
+```env
+VITE_RAPID_API_KEY=YOUR_RAPID_API_KEY
+```
+
+Replace:
+
+```text
+YOUR_RAPID_API_KEY
+```
+
+with your own RapidAPI key.
 
 ---
 
-## Run Project
+# ▶️ Running the Project
 
+Start development server:
+
+```bash
 npm run dev
+```
 
 Open:
 
+```text
 http://localhost:5173
+```
 
 ---
 
-## Build Project
+# 📦 Build for Production
 
+```bash
 npm run build
+```
 
 ---
 
-## Author
+# 👀 Preview Production Build
 
-Akash Kumar
+```bash
+npm run preview
+```
+
+---
+
+# 🧪 React Hooks Used
+
+### useState
+
+Used for:
+
+* Input management
+* Translation output
+* Random string generation
+* Loading state
+
+### useEffect
+
+Used for:
+
+* Initial random string generation
+
+### useCallback
+
+Used for:
+
+* Optimized random string generation function
+
+---
+
+# 🌐 API Integration
+
+The Translator feature uses:
+
+* RapidAPI
+* Axios
+
+API requests are secured using environment variables.
+
+---
+
+# 📱 Responsive Design
+
+The application is responsive across:
+
+* Desktop
+* Laptop
+* Tablet
+* Mobile Devices
+
+Built using Tailwind CSS utility classes.
+
+---
+
+# 🚀 Deployment
+
+The project is deployed using:
+
+### Vercel
+
+Deployment process:
+
+1. Push code to GitHub
+2. Connect repository with Vercel
+3. Configure environment variables
+4. Deploy
+
+---
+
+# 📸 Screenshots
+
+Add screenshots here after project completion.
+
+### Home Page
+
+(Add Screenshot)
+
+### Translator Page
+
+(Add Screenshot)
+
+### Random Generator Page
+
+(Add Screenshot)
+
+---
+
+# 🎯 Assignment Requirements Covered
+
+✅ React Application
+
+✅ React Router DOM
+
+✅ Tailwind CSS
+
+✅ API Integration
+
+✅ RapidAPI
+
+✅ Axios
+
+✅ useState
+
+✅ useEffect
+
+✅ useCallback
+
+✅ Responsive Design
+
+✅ GitHub Repository
+
+✅ Vercel Deployment
+
+---
+
+# 🔮 Future Improvements
+
+* Support multiple languages
+* Translation history
+* Dark Mode
+* Export translations
+* User Authentication
+
+---
+
+# 👨‍💻 Author
+
+**Akash Kumar**
+
+Full-Stack Developer
+
+GitHub:
+
+https://github.com/Akash046
+
+---
+
+# 📄 License
+
+This project was created for educational and internship evaluation purposes.
